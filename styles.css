@@ -1,0 +1,119 @@
+body{
+    background-color: #f1f1f1;
+    width: 1180px;
+    margin:auto;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.firstImg,
+.portfolio1{
+
+  
+  max-width:1080px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.firstImg {
+    background-image: url(images/homepage.jpeg);
+    height: 650px;
+  }
+
+
+.textBlock {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+   
+    font-size: 50px;
+    border: 7px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .textBlock em{
+      font-size: 30px;
+  }
+
+
+.home, .recipe, .post{
+  float: left;
+  height:600px;
+  width:360px;
+  color:white;
+  font-family:'Roboto', sans-serif; 
+  display: block;
+}
+
+
+.home{
+   
+   background-color:#4f74e3;  
+
+}
+
+
+
+.recipe{
+
+background-color:#483D8B;
+ 
+}
+
+ .post{
+
+ background-color:#CD853F;  
+;
+}
+
+
+.portfolio1{
+    background-image: url("images/mainfood.jpeg");
+    height: 650px;
+    margin-top: 500px;  
+    max-width: 1080px;
+  }
+
+
+
+  .about {
+    position: absolute;  
+    width:1080px; 
+    height:450px;
+  background-color:#4f74e3;
+  
+  
+  }
+
+
+  .aboutText p {
+    padding: 100px;
+   color: white; 
+   line-height:25px;
+   font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
