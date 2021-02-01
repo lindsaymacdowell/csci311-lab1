@@ -19,7 +19,7 @@ body{
 }
 
 .firstImg {
-    background-image: url(images/homepage.jpeg);
+    background-image: url(../images/homepage.jpeg);
     height: 650px;
   }
 
@@ -78,7 +78,7 @@ background-color:#483D8B;
 
 
 .portfolio1{
-    background-image: url("images/mainfood.jpeg");
+    background-image: url("../images/mainfood.jpeg");
     height: 650px;
     margin-top: 500px;  
     max-width: 1080px;
