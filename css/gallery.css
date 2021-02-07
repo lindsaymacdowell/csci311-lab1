@@ -1,0 +1,80 @@
+/* Food Gallery Stylesheet */
+
+.row2 {
+ position: relative; 
+ margin-top: 80px; 
+ width: 100000px;
+ height: 1000px;
+}
+
+.animation {
+  width: 300px;
+  height: 100px;
+
+  position: relative;
+  animation: mymove 30s infinite;
+  color: #CD853F;
+  text-shadow: 1px 1px #CD853F;
+
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 800px;}
+}
+
+.portfolio {
+ position: relative;
+
+ float: left; 
+ width: 283px;  
+ height: 1000px;
+}
+
+.zoom {
+ position: relative; 
+ padding: 5px; 
+ margin: 0 auto;  
+ box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2);
+ overflow: hidden;
+}
+
+.zoom img {
+ transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover img{
+  transform: scale(1.5);  
+}
+
+.textbox {
+ position: absolute; 
+ background-color: #CD853F;
+ color: #CD853F;
+ bottom: 8.5px;
+ padding-left: 170px; 
+ padding-right: 98px; 
+
+}
+
+.text {
+ position: absolute;
+ bottom: 8.5px;
+ padding-left: 10px; 
+ color: white;
+}
+
+.img1 {
+ width: 273px;
+ height: 380px; 
+}
+
+.img2 {
+ width: 273px; 
+ height: 330px;
+}
+
+.img3 {
+ width: 273px; 
+ height: 230px;
+}
