@@ -1,14 +1,78 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+/* @import url(https://fonts.googleapis.com/css?family=Lobster); */
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,500); */
 
 
-h2 {
-  font-family: 'Lobster';
+/* h2 { */
+/*   font-family: 'Lobster'; */
+/* } */
+
+/* body { */
+/*   color: #444; */
+/*   font-family: 'Roboto', sans-serif; */
+/*   font-size: 1rem; */
+/*   line-height: 1.5; */
+/* } */
+
+
+/* ==== BODY */
+body {
+    width: 640px;
+    margin: auto;
 }
 
-body {
-  color: #444;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
+
+
+/* == HEADER */
+header {
+    background: lightblue;
+    border-bottom: 1px solid blue;
+    padding: 10px;
+}
+
+
+.menu-links{
+    margin-right: 0px;
+}
+
+h1,
+.menu-links{
+    display: inline;
+}
+
+
+
+/* == RECIPE CAROUSEL */
+.recipe_carousel {
+    border: 1px solid purple;
+
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 259px;
+}
+
+.RC_image {
+    width: 200px;
+    height: auto;
+
+    float: left;
+}
+
+.RC_text {
+    border: 1px dotted green;
+
+    width: 485px;
+    /* position: relative; */
+    /* left: 215px; */
+    /* top: -200px; */
+}
+
+
+
+/* == RECIPE LIST */
+.recipe_list {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
