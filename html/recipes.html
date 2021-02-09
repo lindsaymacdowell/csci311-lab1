@@ -6,47 +6,125 @@
     <meta name="description" content="Our finely curated recipes.">
     <!-- add favicon? -->
     <!-- <base href="TODO"> -->
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/posts.css">
     <link rel="stylesheet" type="text/css" href="../css/recipes.css">
-    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">-->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
   </head>
 
   <body>
 
     <header>
-      <!-- TODO: get from Tushar -->
-      <h2 >The Recipe Blog</h2>  <!-- TODO: figure out which heading level to use -->
-      <nav>
-        <a href="../index.html">Home</a>  <!-- cleaner than ".html", but might -->
-        <a href="/recipes">Recipes</a>  <!--   need to rename source files.  -->
-        <a href="/posts">Posts</a>  <!-- should we rename this to "blog"? -->
-      </nav>
+      <div class="header">
+        <h1>Foodaholic</h1>
+      </div>
+      <div class="navbar">
+        <b>
+        <a href="../index.html">HOME</a>
+        <a href="#" class="center">RECIPES</a>
+        <a href="posts.html" class="center">POSTS</a>
+        <a href="#" class="right">LOGIN</a> 
+        <a href="#" class="right">SIGN UP</a>
+        </b>
+      </div>	  
     </header>
-
+   <!--       <h2>The Recipe Blog</h2>  TODO: figure out which heading level to use 
     <section class="recipe_carousel">
       <img src="" alt="" class="RC_image"><br>
-      <!-- I have an idea on how to do the slider, although it might be more of
+      I have an idea on how to do the slider, although it might be more of
              a scroll? either way, that will need to be implemented (presumably
              in CSS)
-      -->
+      
 
-      <!-- we can put the text in a <div> for styling, if need be -->
+       we can put the text in a <div> for styling, if need be
       Here you can find all of our carefuly curated recipes! <br>
       Lorem ipsum delore set amet.
-    </section>
+    </section>-->
+    <h3>Our Recipes</h3>
 
-    <section class="recipe_list">
-      <h3>Our Recipes</h3> <!-- TODO: figure out which heading level to use -->
+    <div class="row1">
+      <div class="column">
+        <div class="post">
+          <img src="../images/post1.jpg" alt="Mushroom Risotto" style="width:100%">
+          <div class="container">
+            <h2>Mushroom Risotto</h2>
+            <p>
+              This mushroom risotto recipe is a delicious variation of an authentic Italian-style dish... 
+            </p>
+            <a href="https://www.easypeasyfoodie.com/simple-mushroom-risotto/">Image Credit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="post">
+          <img src="../images/post2.jpg" alt="Butter Chicken" style="width:100%">
+          <div class="container">
+            <h2>Butter Chicken</h2>
+            <p>
+            The creamy tomato-based sauce in this butter chicken recipe is simply to die for, with...
+            </p>
+            <a href="https://www.savorytooth.com/butter-chicken/">Image Credit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="post">
+          <img src="../images/post3.jpg" alt="Pistachio Salmon" style="width:100%">
+          <div class="container">
+            <h2>Pistachio-Crusted Salmon</h2>
+            <p>
+            This salmon recipe features a pistachio and breadcrumb crust that creates the perfect...
+            </p>
+            <a href="https://www.tasteofhome.com/recipes/pistachio-salmon/">Image Credit</a>
+          </div>
+        </div>
+     </div>
+  </div>
+
+    <!--<section class="recipe_list">
+      <h3>Our Recipes</h3> TODO: figure out which heading level to use
       <ul>
         <li class="RL_item">
-            <!-- one of these per recipe -->
-            <!-- each has a text section and an image -->
-          <img src="" alt="">
         </li>
       </ul>
-    </section>
+    </section>-->
 
-    <footer>
       <!-- TODO: get from Harry -->
+    <footer>
+	  <div class="footer">
+			<div class="row1">
+			  <div class="column" style="text-align: left; width:30%; padding-top: 30px; font-style: italic;">
+			    
+				<p>Email: foodaholic@sample.email</br>
+				Phone: (123)456-7890 </br>
+				<a href="https://facebook.com"> <img src="../images/icons/fb.png" alt="Facebook" style="padding-top:10px; width:20px;height:20px;"></a> 
+				<a href="https://twitter.com"> <img src="../images/icons/tw.png" alt="Twitter" style="padding-top:10px; width:20px;height:20px;"></a> 
+				<a href="https://instagram.com"> <img src="../images/icons/ig.png" alt="Instagram" style="padding-top:10px; width:20px;height:20px;"></a> 
+				<a href="https://youtube.com"> <img src="../images/icons/yt.png" alt="Youtube" style="padding-top:10px; width:20px;height:20px;"></a> 
+				<a href="https://tiktok.com"> <img src="../images/icons/tk.png" alt="Tiktok" style="padding-top:10px; width:20px;height:20px;"></a> 
+				</p>
+			  </div>
+			  <div class="column" style="text-align: left; width:20%;">
+				<h5>Site Map</h5>
+					<p><a href="../index.html">Home</a></br>
+					<a href="#" class="center">Recipes</a></br>
+					<a href="posts.html" class="center">Blog Posts</a></br></p>
+				
+			  </div>
+			  <div class="column" style="text-align: left; width:40%;">
+				<h5>Newsletter</h5>
+				<p>Subscribe to us to get notifications on the latest posts and recipes</p> 
+				  <label for="email"></label>
+				  <input placeholder="Enter your email address" type="text" id="email" name="email" style ="font-style: italic; padding: 5px;">
+				  <input type="submit" value="Subscribe" onclick="alert('Successfully subscibed! You will get notifications on the latest posts and recipes.')" style ="padding: 4px;">
+			  </div>
+			 </div>
+			<div class="row2">
+		<p>© 2021 Foodaholic All rights reserved</p>
+		</div>
+		</div>
     </footer>
 
   </body>
