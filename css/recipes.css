@@ -1,79 +1,92 @@
-/* PARTNER'S CHANGES */
-/* @import url(https://fonts.googleapis.com/css?family=Lobster); */
-/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,500); */
+/* ==== FONT STUFF */
+/* Lobster */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/lobster.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+}
 
+/* Roboto */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/roboto.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
-/* h2 { */
-/*   font-family: 'Lobster'; */
-/* } */
-
-/* body { */
-/*   color: #444; */
-/*   font-family: 'Roboto', sans-serif; */
-/*   font-size: 1rem; */
-/*   line-height: 1.5; */
-/* } */
 
 
 /* ==== BODY */
 body {
-    width: 640px;
-    margin: auto;
+  width: 640px;
+  margin: auto;
+
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 
 
 /* == HEADER */
 header {
-    background: lightblue;
-    border-bottom: 1px solid blue;
-    padding: 10px;
+  background: lightblue;
+  border-bottom: 1px solid blue;
+  padding: 10px;
+}
+
+
+h1 {
+  font-family: 'Lobster';
+  display: inline;
 }
 
 
 .menu-links{
-    margin-right: 0px;
-}
-
-h1,
-.menu-links{
-    display: inline;
+  display: inline;
+  margin-right: 0px;
 }
 
 
 
 /* == RECIPE CAROUSEL */
 .recipe_carousel {
-    border: 1px solid purple;
+  border: 1px solid purple;
 
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 259px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 259px;
 }
 
 .RC_image {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 
-    float: left;
+  float: left;
 }
 
 .RC_text {
-    border: 1px dotted green;
+  border: 1px dotted green;
 
-    width: 485px;
-    /* position: relative; */
-    /* left: 215px; */
-    /* top: -200px; */
+  width: 485px;
+  /* position: relative; */
+  /* left: 215px; */
+  /* top: -200px; */
 }
 
 
 
 /* == RECIPE LIST */
 .recipe_list {
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
