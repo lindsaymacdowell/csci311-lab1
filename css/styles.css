@@ -1,118 +1,150 @@
-body {
-  background-color: #f1f1f1;
-  width: 1180px;
-  margin:auto;
-  padding: 0;
-  font-family:'Times New Roman', Times, serif; 
+body{
+    background-color: #f1f1f1;
+    width: 1080px;
+    margin:auto;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    
+    
 }
 
 .firstImg,
-.portfolio1 {
+.portfolio1{
+
   max-width:1080px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 .firstImg {
-  background-image: url(../images/homepage.jpeg);
-  height: 650px;
-}
+    background-image: url("../images/homepage.jpeg");
+    height: 650px;
+  }
+
 
 .textBlock {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-size: 50px;
-  border: 7px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 300px;
-  padding: 20px;
-  text-align: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+   
+    font-size: 50px;
+    border: 7px solid #f1f1f1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .textBlock em{
+      font-size: 30px;
+  }
+
+
+.portfolio1{
+    background-image: url("../images/mainfood.jpeg");
+    height: 650px;
+    margin-top: 100px;  
+    max-width: 1080px;
+  }
+
+
+.about h2{
+  font-size:45px;
+  font-weight: bold;
+  color: #996633;
+  padding-top: 40px;
 }
 
-.textBlock em {
-  font-size: 30px;
+.about em{
+  font-size: 45px;
+  font-weight: bold;
+  color: #CD853F;
 }
 
-.home, .recipe, .post {
+ .about img{
+   float: right;
+   height:450px;
+   width:300px; 
+   border: 15px solid #404040;
+   border-radius: 5px;
+   margin-left: 100px;
+   opacity: 0.9;
+ }
+
+ .about img:hover{
+   opacity: 1;
+ }
+
+ .about p{
+   font-size: 18px;
+   line-height: 25px;
+  margin-top: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+  
+ }
+
+ .popular table{
   float: left;
-  height: 600px;
-  width: 360px;
+  height:400px;
+  width:300px;
+}
+
+table img{
+  height: 80px;
+  width: 90px;
+  margin: 10px;
+}
+
+th{
+  background-color: #262626;
   color: white;
-  font-family: 'Roboto', sans-serif; 
-  display: block;
-}
-
-.home {
-  background-color: #4f74e3;  
-}
-
-.recipe {
-  background-color: #483D8B;
-}
-
-.post {
-  background-color: #CD853F;
-}
-
-.portfolio1 {
-  background-image: url("../images/mainfood.jpeg");
-  height: 650px;
-  margin-top: 500px;  
-  max-width: 1080px;
-}
-
-.about {
-  position: absolute;  
-  width: 1080px; 
-  height: 450px;
-  background-color: #4f74e3; 
-}
-
-.aboutText p {
-  padding: 100px;
-  color: white; 
-  line-height: 25px;
+  height:50px;
+  font-weight: bold;
   font-size: 20px;
 }
 
-.footer {
-   margin: auto;
-   left: 0;
-   bottom: 0;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 10px;
-   background-color: #333;
-   color: white;
-   text-align: center;
-   font-family: Helvetica, sans-serif;  
-   font-size: 15px;
+.popular table, td {
+  background-color: #f9f9f9;
+  border-collapse: collapse;
+  font-size: 18px;
 }
 
-.footer a:link {
-    color:white;
+
+table td p{
+  margin-top: 30px;
 }
 
-.footer a:visited {
-    text-decoration: none;
-	color: gray;
+table td:hover{
+  background-color: #a6a6a6;
 }
 
-h5 {
-  display: block;
-  font-size: 1.3em;
-  margin-top: 0.83em;
-  margin-bottom: 0.4em;
-  margin-left: 0;
-  margin-right: 0;
+.featured{
+  margin-left: 350px;
+}
+
+.featured p{
   font-weight: bold;
-  font-family: Copperplate, Papyrus, fantasy;
+  font-size:35px;
+  margin-top: 70px;
+  text-align: center;
+  color:#996633;
+  padding-top:15px;
 }
 
+.featured h2{
+  color: #CD853F;
+}
+
+.featured span {
+  font-size: 17px;
+  text-align: justify;
+  text-justify: inter-word;
+}
