@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Recipe Blog - Recipes</title>
+
+    <title>Recipes | Recipe Blog</title>
     <meta name="description" content="Our finely curated recipes.">
-    <!-- add favicon? -->
-    <!-- <base href="TODO"> -->
+
     <link rel="stylesheet" type="text/css" href="../css/form.css">
     <link rel="stylesheet" type="text/css" href="../css/recipes.css">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
@@ -13,143 +13,227 @@
   </head>
 
   <body>
-
     <header>
       <div class="header">
         <h1>Foodaholic</h1>
       </div>
-      <div class="navbar">
+      <nav class="navbar">
         <b>
-        <a href="../index.html">HOME</a>
-        <a href="#" class="center">RECIPES</a>
-        <a href="posts.html" class="center">POSTS</a>
-        <a href="#" class="right">LOGIN</a> 
-        <a href="#" class="right">SIGN UP</a>
+          <a href="index.html">HOME</a>
+          <a href="#">RECIPES</a>
+          <a href="posts.html">POSTS</a>
         </b>
-      </div>	  
+      </nav>	  
     </header>
 
-    <div class="content">
+    <section class="overview">
       <img src="../images/cooking_in_kitchen.jpg" alt="Woman cooking in kitchen">
       <h2>Foodaholic's Own Recipes</h2>
-      <p>A list of our most popular recipes!</p>
-    </div>
+          <p>
+            A list of our most popular recipes!<br>
+            We hope you find something you like, there's something here for
+            everyone.
+            <br>
+            <br>
+            We've curated these recipes with the aim of promoting healthy,
+            sustainable, and most importantly, tasty cuisine!
+          </p>
+    </section>
 
-    <div class="recipes">
-      <div id="first">
-        <img src="../images/food1.jpg">
-        <h2>Foodaholic's Own Recipes</h2>
-        <p>A list of our most popular recipes!</p>
-      </div>
-      <div id="second">
-        <img src="../images/food2.jpg">
-        <h2>Foodaholic's Own Recipes</h2>
-        <p>A list of our most popular recipes!</p>
-      </div>
-      <div id="third">
-        <img src="../images/food3.jpg">
-        <h2>Foodaholic's Own Recipes</h2>
-        <p>A list of our most popular recipes!</p>
-      </div>
-    </div>
-
-    <!--       <h2>The Recipe Blog</h2>  TODO: figure out which heading level to use 
-    <section class="recipe_carousel">
-      <img src="" alt="" class="RC_image"><br>
-      I have an idea on how to do the slider, although it might be more of
-             a scroll? either way, that will need to be implemented (presumably
-             in CSS)
-      
-
-       we can put the text in a <div> for styling, if need be
-      Here you can find all of our carefuly curated recipes! <br>
-      Lorem ipsum delore set amet.
-    </section>-->
-<!--
-    <div class="row1">
-      <div class="column">
-        <div class="post">
-          <img src="../images/post1.jpg" alt="Mushroom Risotto" style="width:100%">
-          <div class="container">
-            <h2>Mushroom Risotto</h2>
+    <section>
+      <ul class="recipe_list">
+        <li class="recipe_item">
+          <div class="recipe_summary">
+            <h2>Matcha Cookies (GF, vegan)</h2>
             <p>
-              This mushroom risotto recipe is a delicious variation of an authentic Italian-style dish... 
+              Enjoy your afternoon tea with these chewy, luscious matcha 
+              cookies. The unique flavor of matcha is surprisingly delightful!
             </p>
-            <a href="https://www.easypeasyfoodie.com/simple-mushroom-risotto/">Image Credit</a>
           </div>
-        </div>
-      </div>
 
-      <div class="column">
-        <div class="post">
-          <img src="../images/post2.jpg" alt="Butter Chicken" style="width:100%">
-          <div class="container">
-            <h2>Butter Chicken</h2>
-            <p>
-            The creamy tomato-based sauce in this butter chicken recipe is simply to die for, with...
-            </p>
-            <a href="https://www.savorytooth.com/butter-chicken/">Image Credit</a>
-          </div>
-        </div>
-      </div>
+          <img src="../images/matcha_cookies.webp" 
+               alt="A black plate with delicious, speckled green cookies.">
 
-      <div class="column">
-        <div class="post">
-          <img src="../images/post3.jpg" alt="Pistachio Salmon" style="width:100%">
-          <div class="container">
-            <h2>Pistachio-Crusted Salmon</h2>
+          <details class="recipe_contents">
+            <summary>Read More</summary>
+
             <p>
-            This salmon recipe features a pistachio and breadcrumb crust that creates the perfect...
+              Ingredients:
+              <ul>
+                <li>100g oat meal   </li>
+                <li>50g rice flour  </li>
+                <li>40g walnut      </li>
+                <li>50g maple syrup </li>
+                <li>30g oil         </li>
+                <li>1 tbsp matcha   </li>
+              </ul>
+              <br>
+
+              Instructions:
+              <ol>
+                <li>Put oats and walnuts into a food processor and make them into small pieces.</li>
+                <li>Add all the rest of the ingredients and mix using pulse button.</li>
+                <li>Shape the dough into your favorite shape.</li>
+                <li>Bake at 160C/320F for 20 minutes.</li>
+                <li>Enjoy!!!</li>
+              </ol>
             </p>
-            <a href="https://www.tasteofhome.com/recipes/pistachio-salmon/">Image Credit</a>
-          </div>
-        </div>
-     </div>
-  </div>
--->
-    <!--<section class="recipe_list">
-      <h3>Our Recipes</h3> TODO: figure out which heading level to use
-      <ul>
-        <li class="RL_item">
+          </details>
         </li>
+
+        <li class="recipe_item">
+          <div class="recipe_summary">
+            <h2>Lemonade</h2>
+            <p>
+              Homemade lemonade is well worth the effort. Fresh lemons, water
+              and sugar make for a drink that's a world away from the shop-bought
+              alternative.
+            </p>
+          </div>
+
+          <img src="../images/lemonade.jpg" 
+               alt="A mason-jar glass of translucent lemonade, topped with a
+                     squeezed lemon-round and a mint leaf.">
+
+          <details class="recipe_contents">
+            <summary>Read More</summary>
+
+            <p>
+              Ingredients:
+              <ul>
+                <li>600g organic lemon                      </li>
+                <li>600ml water                             </li>
+                <li>400g beet sugar (or whatever you choose)</li>
+              </ul>
+              <br>
+
+              Instructions:
+              <ol>
+                <li>Put lemon, sugar, and water in a pot and simmer for 15 minutes.</li>
+                <li>Chill the mixture in the fridge.</li>
+                <li>Dilute with water; add mint and sliced fresh lemon.</li>
+                <li>Enjoy!</li>
+              </ol>
+              <br>
+
+              <b>*</b> If you want something different than usual, we recommend
+                diluting the lemon syrup with carbonated water or soy milk.
+            </p>
+          </details>
+        </li>
+
+        <li class="recipe_item">
+          <div class="recipe_summary">
+            <h2>Ethiopian Hummus</h2>
+            <p>
+              This authentic homemade hummus recipe is so much easier to make
+                than most people think and way better than the store bought
+                stuff!
+            </p>
+          </div>
+
+          <img src="../images/hummus.webp" 
+               alt="A bowl of hummus on an ornate tray, accompanied by some
+                      thickly-sliced bread and topped with chickpeas, some green
+                      herb, and a red spice.">
+
+          <details class="recipe_contents">
+            <summary>Read More</summary>
+
+            <p>
+              Ingredients:
+              <ul>
+                <li>80g sunflower seeds                           </li>
+                <li>200g chickpea(about 550g after boiling)       </li>
+                <li>2 tbsp olive oil                              </li>
+                <li>zest of a lemon                               </li>
+                <li>3 tbsp lemon juice                            </li>
+                <li>1 tsp jalapeno (of course you can add more!)  </li>
+                <li>2 cloves of garlic                            </li>
+                <li>1 tsp salt                                    </li>
+                <li>1 tsp berbere spice                           </li>
+              </ul>
+
+              <br>
+              <small>[Berbere Spice]</small>
+              <ul>
+                <li>10g dried chili peppers (about 1 – 2 tbsp chili powder)  </li>
+                <li>2 tbsp paprica powder                         </li>
+                <li>1 tsp salt                                    </li>
+                <li>1 tsp coriander                               </li>
+                <li>1/2 tsp dried ginger)                         </li>
+                <li>1/2 tsp fenugreek                             </li>
+                <li>1/2 tsp cardamom                              </li>
+                <li>1/2 nutmeg                                    </li>
+                <li>1/2 all spice                                 </li>
+                <li>1/4 clove                                     </li>
+              </ul>
+              <br>
+
+              Instructions:
+              <ol>
+                <li>Soak chickpeas for 6 hours, then cook with pressure cooker
+                      for 5 minutes.</li>
+                <li>Toast sunflower seeds.</li>
+                <li>Powderize all berbere spice ingredients except for nutmeg,
+                      then add the nutmeg, grated.</li>
+                <li>Combine all ingredients together in a food processor. Add
+                      water to adjust consistency, if needed.</li>
+                <li>Serve with pita (or whatever you like).</li>
+              </ol>
+            </p>
+          </details>
+        </li>
+
       </ul>
-    </section>-->
+    </section>
 
-      <!-- TODO: get from Harry -->
-    <footer>
-	  <div class="footer">
-			<div class="row1">
-			  <div class="column" style="text-align: left; width:30%; padding-top: 30px; font-style: italic;">
-			    
-				<p>Email: foodaholic@sample.email</br>
-				Phone: (123)456-7890 </br>
-				<a href="https://facebook.com"> <img src="../images/icons/fb.png" alt="Facebook" style="padding-top:10px; width:20px;height:20px;"></a> 
-				<a href="https://twitter.com"> <img src="../images/icons/tw.png" alt="Twitter" style="padding-top:10px; width:20px;height:20px;"></a> 
-				<a href="https://instagram.com"> <img src="../images/icons/ig.png" alt="Instagram" style="padding-top:10px; width:20px;height:20px;"></a> 
-				<a href="https://youtube.com"> <img src="../images/icons/yt.png" alt="Youtube" style="padding-top:10px; width:20px;height:20px;"></a> 
-				<a href="https://tiktok.com"> <img src="../images/icons/tk.png" alt="Tiktok" style="padding-top:10px; width:20px;height:20px;"></a> 
-				</p>
-			  </div>
-			  <div class="column" style="text-align: left; width:20%;">
-				<h5>Site Map</h5>
-					<p><a href="../index.html">Home</a></br>
-					<a href="#" class="center">Recipes</a></br>
-					<a href="posts.html" class="center">Blog Posts</a></br></p>
-				
-			  </div>
-			  <div class="column" style="text-align: left; width:40%;">
-				<h5>Newsletter</h5>
-				<p>Subscribe to us to get notifications on the latest posts and recipes</p> 
-				  <label for="email"></label>
-				  <input placeholder="Enter your email address" type="text" id="email" name="email" style ="font-style: italic; padding: 5px;">
-				  <input type="submit" value="Subscribe" onclick="alert('Successfully subscibed! You will get notifications on the latest posts and recipes.')" style ="padding: 4px;">
-			  </div>
-			 </div>
-			<div class="row2">
-		<p>© 2021 Foodaholic All rights reserved</p>
-		</div>
-		</div>
+    <aside>
+      <br>
+      <br>
+      <h4>Sources:</h4>
+      <ul>
+        <li>Matcha Cookies: http://peacefulcuisine.com/2020/08/matcha-cookies/</li>
+        <li>Lemonade: http://peacefulcuisine.com/2020/05/lemonade/</li>
+        <li>Ethiopean Hummus: http://peacefulcuisine.com/2017/06/ethiopian-hummus/</li>
+      </ul>
+    </aside>
+
+    <footer class="footer">
+        <div class="row1">
+          <div class="column" style="text-align: left; width:30%; padding-top: 30px; font-style: italic;">
+            <p>
+              Email: foodaholic@sample.email</br>
+              Phone: (123) 456-7890 </br>
+              <a href="https://facebook.com"> <img src="../images/icons/fb.png" alt="Facebook" style="padding-top:10px; width:20px;height:20px;"></a> 
+              <a href="https://twitter.com"> <img src="../images/icons/tw.png" alt="Twitter" style="padding-top:10px; width:20px;height:20px;"></a> 
+              <a href="https://instagram.com"> <img src="../images/icons/ig.png" alt="Instagram" style="padding-top:10px; width:20px;height:20px;"></a> 
+              <a href="https://youtube.com"> <img src="../images/icons/yt.png" alt="Youtube" style="padding-top:10px; width:20px;height:20px;"></a> 
+              <a href="https://tiktok.com"> <img src="../images/icons/tk.png" alt="Tiktok" style="padding-top:10px; width:20px;height:20px;"></a> 
+            </p>
+          </div>
+
+          <div class="column" style="text-align: left; width:20%;">
+            <h5>Site Map</h5>
+            <p>
+              <a href="../index.html">Home</a></br>
+              <a href="#" class="center">Recipes</a></br>
+              <a href="posts.html" class="center">Blog Posts</a></br>
+            </p>
+          </div>
+
+          <div class="column" style="text-align: left; width:40%;">
+            <h5>Newsletter</h5>
+            <p>Subscribe to us to get notifications on the latest posts and recipes</p> 
+            <label for="email"></label>
+            <input placeholder="Enter your email address" type="text" id="email" name="email" style ="font-style: italic; padding: 5px;">
+            <input type="submit" value="Subscribe" onclick="alert('Successfully subscribed! You will get notifications on the latest posts and recipes.')" style="padding: 4px;">
+          </div>
+        </div>
+
+        <div class="row2">
+          <p>© 2021 Foodaholic, All rights reserved</p>
+        </div>
     </footer>
-
   </body>
 </html>
