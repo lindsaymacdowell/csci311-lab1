@@ -1,0 +1,53 @@
+.footer {
+   margin: auto;
+   left: 0;
+   bottom: 0;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 10px;
+   background-color: #333;
+   color: white;
+   text-align: center;
+   font-family: Helvetica, sans-serif;  
+   font-size: 15px;
+}
+
+.footer a:link {
+    color:white;
+}
+
+.footer a:visited {
+    text-decoration: none;
+	color: gray;
+}
+
+h5 {
+  display: block;
+  font-size: 1.3em;
+  margin-top: 0.83em;
+  margin-bottom: 0.4em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+  width: 100%;
+  display: block;
+  }
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}

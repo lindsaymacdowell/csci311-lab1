@@ -12,6 +12,7 @@ body{
 .portfolio1{
 
   max-width:1080px;
+
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
