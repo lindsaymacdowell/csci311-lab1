@@ -2,13 +2,64 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
 
-h2 {
-  font-family: 'Lobster';
-}
-
 body {
   color: #444;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.content img {
+	border: 3px solid black;
+	width: 50%;
+	margin-right: 15px;
+	float: left;
+}
+
+.content h2 {
+	font-family: 'Lobster';
+	margin-left: 15px;
+	display: block;
+	margin: 2px 0 0 0;
+}
+
+.content p {
+	margin-left: 15px;
+	display: block;
+	margin: 2px 0 0 0;
+}
+
+.recipes {
+	border: 3px solid black;
+  padding: 20px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.recipes img {
+	border: 1px solid black;
+	width: 50%;
+	max-height: 350px;
+	margin-left: 15px;
+	float: right;
+	margin-bottom: 25px;
+}
+
+.recipes h2 {
+	font-family: 'Lobster';
+	margin-right: 15px;
+	display: block;
+	margin: 2px 0 0 0;
+}
+
+.recipes p {
+	margin-right: 15px;
+	display: block;
+	margin: 2px 0 0 0;
 }
